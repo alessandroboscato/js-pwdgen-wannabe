@@ -1,4 +1,4 @@
-alert('Rispondi a qualche semplice domanda e ricevi subito la tua password personalizzata e infallibile')
+alert('Rispondi a qualche semplice domanda e ricevi subito la tua password personalizzata e infallibile. Ok per continuare.')
 
 // Chiedi all’utente il suo nome,
 
@@ -11,3 +11,5 @@ console.log (cognomeUtente);
 var colorePreferito = prompt("Qual'è il tuo colore preferito?");
 console.log (colorePreferito);
 // Infine scrivi sulla pagina nomecognomecolorepreferito19
+var passwordGenerata = nomeUtente + cognomeUtente + colorePreferito + '19';
+document.getElementById("password").innerHTML = passwordGenerata;
